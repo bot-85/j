@@ -258,7 +258,7 @@ def menu():
 	elif sayangku=="2" or sayangku=="02":
 		info()
 	elif sayangku=="3" or sayangku=="03":
-		massal()
+		follow()
 	elif sayangku=="4" or sayangku=="04":
 		dump_old()
 	elif sayangku=="5" or sayangku=="05":
@@ -384,40 +384,6 @@ def user_agent():
 		jalan("\n"+balmond+m+" \33[1;91mMasukkan Pilihan Yang Benar")
 		time.sleep(0.5)
 		user_agent()
-####INFO TOOLS####
-def info_tools():
-    os.system('clear')
-    logo()
-    print ' %s\x1b[1;93m[%s\x1b[1;93m#%s\x1b[1;93m]'%(N,O,N), 52 * '\x1b[1;97m-\x1b[0m';time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92mWelcome to Tools       \x1b[1;93m'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] TEAM      \x1b[1;93m: XNX-CODE TEAM 2021.'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Author    \x1b[1;93m: Sanz-Tzy \x1b[1;93mX Haris Ganz.'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Github    \x1b[1;93m: https://github.com/Sanz-Tzy'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Facebook  \x1b[1;93m: Bintang Tzy'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Link FB   \x1b[1;93m: https://www.facebook.com/bintangt.zy.92'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] WhatsApp  \x1b[1;93m: +628727xxxx'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Peringatan \x1b[1;93m: Jangan lupa Follow dan Like github saya!'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Catatan  \x1b[1;93m: Kunjungi Facebook Saya Bintang Tzy'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;93m#%s\x1b[1;93m]'%(N,O,N), 52 * '\x1b[1;97m-\x1b[0m';time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92mTutorial buka akun sesi  \x1b[1;93m: '%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Buka akun terkena sesi'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu liat jenis sesi tersebut jika sesi tersebut ia lah komputer lain'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: terus ketik lanjut 5-7 kli menggunakan SIM satu'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu keluar dan ubah ke sim kedua'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu mainkan mode pesawat 5-10 detik lalu masuk ke akun kesesi tersebut'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lihat lah perubahan tersebut'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;93m#%s\x1b[1;93m]'%(N,O,N), 52 * '\x1b[1;97m-\x1b[0m';time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: \x1b[1;92mTerimakasih kepada'%(N,H,N);time.sleep(0.07)
-    print '\n %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92m: Author Script'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Sanz-Tzy'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Haris Ganz'%(N,H,N);time.sleep(0.07)
-    print '\n %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92m: Team Script'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: YumasaaTzy'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Mrjeeck X nano'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: aang Ardiansyah XD'%(N,H,N);time.sleep(0.07)
-    print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Yumee Tzy'%(N,H,N);time.sleep(0.07)
-    raw_input('\n [ %s\x1b[1;92mKEMBALI%s \x1b[1;93m] '%(O,N));menu()
-
 # Old2
 
 def dump_old2():
