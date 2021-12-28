@@ -156,11 +156,11 @@ def banner():
  \x1b[1;92m/______  / \x1b[1;93m       \____|__  /\____|__  /\x1b[1;92m/_______ \  
  \x1b[1;92m       \/   \x1b[1;93m              \/         \/         \x1b[1;92m\/    
 \033[92;1m----------------------------------------------------------
-\033[97;1m[ \033[92;1mCreator  \033[97;1m: \033[93;1mSanz-Tzy \033[97;1mX \033[93;1mHaris Ganz
-\033[97;1m[ \033[92;1mWhatsApp \033[97;1m: \033[93;1m083801xxxxx
-\033[97;1m[ \033[92;1mGithub   \033[97;1m: \033[93;1mHttps://github.com/Sanz-Tzy
-\033[97;1m[ \033[92;1mFacebook \033[97;1m: \033[93;1mBintang Tzy \033[97;1m[\033[92;1mFollow Me Facebook\033[97;1m]
-\033[97;1m[ \033[92;1m Crack Facebook random akan kaya teh hijau
+\033[97;1m \033[92;1mCreator  \033[97;1m: \033[93;1mSanz-Tzy \033[97;1mX \033[93;1mHaris Ganz
+\033[97;1m \033[92;1mWhatsApp \033[97;1m: \033[93;1m083801xxxxx
+\033[97;1m \033[92;1mGithub   \033[97;1m: \033[93;1mHttps://github.com/Sanz-Tzy
+\033[97;1m \033[92;1mFacebook \033[97;1m: \033[93;1mBintang Tzy \033[97;1m[\033[92;1mFollow Me Facebook\033[97;1m]
+\033[97;1m\033[92;1m Crack Facebook random akan kaya teh hijau
 \033[97;1m\033[93;1m---------------------------------------------------------
 """)
 
