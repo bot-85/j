@@ -281,46 +281,6 @@ def menu():
 		time.sleep(0.5)
 		menu()
 
-# TEMA
-
-def tema():
-	print(s+"\n{"+m+"1"+s+"}"+l+" Tema Default")
-	print(s+"{"+m+"2"+s+"}"+l+" Tema Kuning "+k+"{tai}")
-	print(s+"{"+m+"3"+s+"}"+l+" Tema Merah "+m+"{amarah}")
-	print(s+"{"+m+"4"+s+"}"+l+" Tema Biru "+s+"{langin}")
-	print(s+"{"+m+"0"+a+"}"+l+" Kembali")
-	pilih = input("\n"+balmond+l+" Pilih : ")
-	if pilih=="1" or pilih=="01":
-		awm = open("tema.txt","w");awm.write("default");awm.close()
-		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
-		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
-		time.sleep(0.5)
-		exit()
-	elif pilih=="2" or pilih=="02":
-		awm = open("tema.txt","w");awm.write("kuning");awm.close()
-		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
-		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
-		time.sleep(0.5)
-		exit()
-	elif pilih=="3" or pilih=="03":
-		awm = open("tema.txt","w");awm.write("merah");awm.close()
-		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
-		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
-		time.sleep(0.5)
-		exit()
-	elif pilih=="4" or pilih=="04":
-		awm = open("tema.txt","w");awm.write("biru");awm.close()
-		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
-		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
-		time.sleep(0.5)
-		exit()
-	elif pilih=="0" or pilih=="00":
-		menu()
-	else:
-		jalan(balmond+m+" Pilihan Salah")
-		time.sleep(0.5)
-		tema()
-
 # RESULT
 
 def result():
