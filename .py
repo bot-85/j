@@ -354,7 +354,6 @@ def result():
 def info_tools():
     os.system('clear')
     logo()
-    print ' %s\x1b[1;93m[%s\x1b[1;93m#%s\x1b[1;93m]'%(N,O,N), 52 * '\x1b[1;97m-\x1b[0m';time.sleep(0.07)
     print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92mWelcome to Tools       \x1b[1;93m'%(N,H,N);time.sleep(0.07)
     print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] TEAM      \x1b[1;93m: XNX-CODE TEAM 2021.'%(N,H,N);time.sleep(0.07)
     print ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] Author    \x1b[1;93m: Sanz-Tzy \x1b[1;93mX Haris Ganz.'%(N,H,N);time.sleep(0.07)
