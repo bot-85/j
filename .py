@@ -251,6 +251,7 @@ def menu():
 	print(s+"{"+m+"06"+s+"}"+l+" \33[1;97mSetting U/A \33[1;93m[\33[1;96mUser Agent\33[1;93m] "+s+"{Opsi}")
 	print(s+"{"+m+"07"+s+"}"+l+" \33[1;97mCek Opsi \33[1;93mHasil Crack "+s+"{ok/cp}")
 	print(s+"{"+m+"08"+s+"}"+l+" \33[1;97mCek Result \33[1;93mCrack Account \33[1;96m[\33[1;92mOK\33[1;96m/\33[1;93mCP\33[1;96m]")
+        print(s+"{"+m+"09"+s+"}"+l+" \33[1;97mInfo Tools  \33[1;96m[\033[93;1mAuthor\33[1;96m]")
 	print(s+"{"+m+"00"+s+"}"+l+" \33[1;91mLogout")
 	sayangku = input("\n"+balmond+l+" \33[1;93m+>>> : \33[1;92m")
 	if sayangku=="1" or sayangku=="01":
@@ -270,7 +271,7 @@ def menu():
 	elif sayangku=="8" or sayangku=="08":
 		result()
 	elif sayangku=="9" or sayangku=="09":
-		tema()
+		info()
 	elif sayangku=="0" or sayangku=="00":
 		os.system("rm -rf token.txt")
 		jalan(balmond+l+" \33[1;93mThanks Udah Pake Sc Gua Bro")
@@ -426,6 +427,26 @@ def user_agent():
 		jalan("\n"+balmond+m+" \33[1;91mMasukkan Pilihan Yang Benar")
 		time.sleep(0.5)
 		user_agent()
+#Logo$(($
+def info()
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92mTutorial buka akun sesi  \x1b[1;93m: '%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Buka akun terkena sesi'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu liat jenis sesi tersebut jika sesi tersebut ia lah komputer lain'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: terus ketik lanjut 5-7 kli menggunakan SIM satu'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu keluar dan ubah ke sim kedua'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lalu mainkan mode pesawat 5-10 detik lalu masuk ke akun kesesi tersebut'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: lihat lah perubahan tersebut'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;93m#%s\x1b[1;93m]'%(N,O,N), 52 * '\x1b[1;97m-\x1b[0m';time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: \x1b[1;92mTerimakasih kepada'%(N,H,N);time.sleep(0.07)
+    jalan '\n %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92m: Author Script'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Sanz-Tzy'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Haris Ganz'%(N,H,N);time.sleep(0.07)
+    jalan '\n %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92m: Team Script'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: YumasaaTzy'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Mrjeeck X nano'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: aang Ardiansyah XD'%(N,H,N);time.sleep(0.07)
+    jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Yumee Tzy'%(N,H,N);time.sleep(0.07)
+    raw_input('\n [ %s\x1b[1;92mKEMBALI%s \x1b[1;93m] '%(O,N));menu()
 
 # Old2
 
