@@ -256,7 +256,7 @@ def menu():
 	if sayangku=="1" or sayangku=="01":
 		publik()
 	elif sayangku=="2" or sayangku=="02":
-		follow()
+		info()
 	elif sayangku=="3" or sayangku=="03":
 		massal()
 	elif sayangku=="4" or sayangku=="04":
@@ -384,7 +384,8 @@ def user_agent():
 		jalan("\n"+balmond+m+" \33[1;91mMasukkan Pilihan Yang Benar")
 		time.sleep(0.5)
 		user_agent()
-#Logo$(($
+# LOGO
+
 def info()
     jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;92mTutorial buka akun sesi  \x1b[1;93m: '%(N,H,N);time.sleep(0.07)
     jalan ' %s\x1b[1;93m[%s\x1b[1;96m>%s\x1b[1;93m] \x1b[1;93m: Buka akun terkena sesi'%(N,H,N);time.sleep(0.07)
