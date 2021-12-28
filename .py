@@ -251,7 +251,7 @@ def menu():
 	print(s+"{"+m+"06"+s+"}"+l+" \33[1;97mSetting U/A \33[1;93m[\33[1;96mUser Agent\33[1;93m] "+s+"{Opsi}")
 	print(s+"{"+m+"07"+s+"}"+l+" \33[1;97mCek Opsi \33[1;93mHasil Crack "+s+"{ok/cp}")
 	print(s+"{"+m+"08"+s+"}"+l+" \33[1;97mCek Result \33[1;93mCrack Account \33[1;96m[\33[1;92mOK\33[1;96m/\33[1;93mCP\33[1;96m]")
-        print(s+"{"+m+"09"+s+"}"+l+" \33[1;97mInfo Tools \33[1;96m[\033[93;1m Author \33[1;96m]")
+        print(s+"{"+m+"09"+s+"}"+l+" \33[1;91mLogout")
 	print(s+"{"+m+"00"+s+"}"+l+" \33[1;91mLogout")
 	sayangku = input("\n"+balmond+l+" \33[1;93m+>>> : \33[1;92m")
 	if sayangku=="1" or sayangku=="01":
