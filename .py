@@ -351,7 +351,28 @@ def result():
 		time.sleep(0.5)
 		result()
 
+# Jancok
+def info()
 
+    jalan('%s╠══[%s•%s] %sNama : %s'%(O,P,O,P,nm))
+    jalan('%s╠══[%s•%s] %sNama Depan : %s'%(O,P,O,P,nd))
+    jalan('%s╠══[%s•%s] %sNama Tengah : %s'%(O,P,O,P,nt))
+    jalan('%s╠══[%s•%s] %sNama Belakang : %s'%(O,P,O,P,nb))
+    jalan('%s╠══[%s•%s] %sTTL : %s'%(O,P,O,P,ut))
+    jalan('%s╠══[%s•%s] %sGender : %s'%(O,P,O,P,gd))
+    jalan('%s╠══[%s•%s] %sEmail : %s'%(O,P,O,P,em))
+    jalan('%s╠══[%s•%s] %sLink : %s'%(O,P,O,P,lk))
+    jalan('%s╠══[%s•%s] %sUsername : %s'%(O,P,O,P,us))
+    jalan('%s╠══[%s•%s] %sAgama : %s'%(O,P,O,P,rg))
+    jalan('%s╠══[%s•%s] %sStatus Hubungan : %s'%(O,P,O,P,rl))
+    jalan('%s╠══[%s•%s] %sHubungan Dengan : %s'%(O,P,O,P,rls))
+    jalan('%s╠══[%s•%s] %sTempat Tinggal : %s'%(O,P,O,P,lc))
+    jalan('%s╠══[%s•%s] %sTempat Asal : %s'%(O,P,O,P,ht))
+    jalan('%s╠══[%s•%s] %sTentang : %s'%(O,P,O,P,ab))
+    jalan('%s╠══[%s•%s] %sLocale : %s'%(O,P,O,P,lo))
+    print('%s║'%(O))
+    input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+    menu()
 # USER AGENT
 
 def user_agent():
