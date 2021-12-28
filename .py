@@ -269,8 +269,6 @@ def menu():
 		cek_opsi()
 	elif sayangku=="8" or sayangku=="08":
 		result()
-	elif sayangku=="9" or sayangku=="09":
-		info()
 	elif sayangku=="0" or sayangku=="00":
 		os.system("rm -rf token.txt")
 		jalan(balmond+l+" \33[1;93mThanks Udah Pake Sc Gua Bro")
